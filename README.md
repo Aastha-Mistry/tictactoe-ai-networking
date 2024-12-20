@@ -55,8 +55,8 @@ Explore how IoT, cloud integration, and AI come together in this innovative proj
   python server.py
 
 
-**Contributing:**
+## Contributing:
 Contributions to improve the project are welcome. You can fork the repository, make your changes, and submit a pull request for review.
 
-**License:**
+## License:
 This project is licensed under the MIT License. See the LICENSE file for more details.
