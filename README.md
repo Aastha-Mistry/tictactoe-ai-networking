@@ -39,16 +39,20 @@ Explore how IoT, cloud integration, and AI come together in this innovative proj
    git clone https://github.com/your_username/tictactoe-networking.git 
 
 2. **Install the required dependencies:**
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt  
 
-Configure the ttsheet.json file with your Google Sheets API credentials.
+3. **Configure API credentials:**
+   Update ttsheet.json with your Google Sheets API details.
 
-Run the main Python script to start the TicTacToe game:
-python main.py
+4. **Run the TicTacToe game:**
+   ```bash
+   python main.py  
 
-Optionally, run the web server using Flask to display game data on a webpage:
-cd webserver/
-python server.py
+5. **Launch the web server (optional):**
+  ```bash
+  cd webserver/
+  python server.py
 
 
 **Contributing:**
