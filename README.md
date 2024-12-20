@@ -21,15 +21,15 @@ Explore how IoT, cloud integration, and AI come together in this innovative proj
 7. Enable remote gameplay via a Flask-based web application. 
 
 
-**Project Structure:**
+## Project Structure 
 
-1. app.py: Python script for integrating the TicTacToe game with Google Sheets API to implement the online scoreboard.
-2. main.py: Main Python script for controlling the game logic and interactions with the Sense HAT module.
-3. ttsheet.json: JSON file containing configuration details for accessing the Google Sheets API.
-4. webserver/: Directory containing files related to the web server setup.
-5. index.html: HTML file for the webpage to display game data.
-6. server.py: Python script for the web server implementation using Flask.
-7. static/: Directory containing static assets (CSS, JavaScript) for the webpage.
+- **app.py:** Python script to integrate the game with Google Sheets API for online scoreboard functionality.  
+- **main.py:** Core game logic and interaction with the Sense HAT module.  
+- **ttsheet.json:** Configuration file for Google Sheets API access.  
+- **webserver/:** Directory containing web server setup files.  
+  - **index.html:** Webpage for displaying game data.  
+  - **server.py:** Flask-based web server implementation.  
+- **static/:** Contains CSS and JavaScript files for enhancing the web interface.
 
 
 ## Usage  
