@@ -50,16 +50,12 @@ Explore how IoT, cloud integration, and AI come together in this innovative proj
    python main.py  
 
 5. **Launch the web server (optional):**
-  ```bash
-  cd webserver/
-  python server.py
+    ```bash
+    cd webserver/
+    python server.py
 
 
-
-## Usage  
-
-
-Contributing:
+## Contributing:
 Contributions to improve the project are welcome. You can fork the repository, make your changes, and submit a pull request for review.
 
 ## License:
