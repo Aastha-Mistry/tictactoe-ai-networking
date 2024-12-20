@@ -1,20 +1,24 @@
-# tictactoe-ai-networking
-Project Title: Networking Component for TicTacToe Game with AI using Raspberry Pi and Sense HAT Module
+# TicTacToe AI Networking  
 
-**Description:**
+## Description  
+Explore how IoT, cloud integration, and AI come together in this innovative project. This repository features the networking component of a TicTacToe game with AI, built using Raspberry Pi and Sense HAT. The project integrates cloud-based score management, data visualization, and web interfaces, showcasing skills in data handling, Python programming, and IoT systems.  
 
-This GitHub repository contains the code for the networking component of the TicTacToe game with AI implemented using a Raspberry Pi and Sense HAT module. The project was developed as part of the Communications Engineering course (IENG 2530) and is a component of the BUS Project.
+## Key Features  
 
-**Project Objectives:**
+- **Cloud Integration:** Online scoreboard leveraging Google Sheets API for storing and retrieving game data.  
+- **Data Visualization:** Fetch and display scores on the Raspberry Pi’s RGB LED matrix or via a web interface.  
+- **Web Framework:** Flask-based web server for seamless user interaction and real-time data display.  
+- **Networking Analysis:** Measured network parameters using Wireshark for optimized performance.  
 
-1. Implement an online scoreboard to store match scores or player moves in the cloud.
-2. Optionally fetch the scores from the cloud and display them on the Raspberry Pi’s RGB LED matrix or a web page.
-3. Design the project considering various implementation possibilities, including networking methods, cloud service providers, and display options.
-4. Set up the chosen cloud service (Google Cloud Platform recommended) and integrate it with the Raspberry Pi.
-5. Develop Python code to send score or move data to the cloud database.
-6. Install a web server (Apache or Flask) on the Raspberry Pi and create a webpage to display the game data stored on the cloud.
-7. Utilize networking tools like Wireshark to measure network parameters between the Raspberry Pi and the cloud.
-8. Enable the TicTacToe game to be played over the web using a Python web framework like Flask.
+## Project Objectives  
+
+1. Store and manage player scores and moves in a cloud-based database.  
+2. Visualize data on an RGB LED matrix or a dynamic webpage.  
+3. Evaluate and implement networking methods and cloud services for optimal integration.  
+4. Develop efficient Python scripts for cloud database interaction.  
+5. Set up and manage a web server for hosting the game interface.  
+6. Analyze network performance between Raspberry Pi and the cloud for reliability.  
+7. Enable remote gameplay via a Flask-based web application. 
 
 
 **Project Structure:**
@@ -28,12 +32,13 @@ This GitHub repository contains the code for the networking component of the Tic
 7. static/: Directory containing static assets (CSS, JavaScript) for the webpage.
 
 
-**Usage:**
+## Usage  
 
-**Clone the repository to your local machine using the command:**
-git clone https://github.com/your_username/tictactoe-networking.git
+1. **Clone the repository:**  
+   ```bash  
+   git clone https://github.com/your_username/tictactoe-networking.git 
 
-**Install the required dependencies:**
+2. **Install the required dependencies:**
 pip install -r requirements.txt
 
 Configure the ttsheet.json file with your Google Sheets API credentials.
